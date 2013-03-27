@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Fred marries Jane</title>
+		<meta name="description" content="Web invitation to Fred and Jane's wedding" />
+		<meta name="keywords" content="Fred, Jane, invitation, wedding" />
+		<meta name="author" content="Fred" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/modernizr.custom.63321.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<header class="clearfix">
+				<h1>hello, <span>you're invited to</span> fred & jane's wedding</h1>
+			</header>
+			<div class="main">
+				<div id="mi-slider" class="mi-slider">
+					<ul> <!--Who-->
+						<li><a href="#"><img src="images/moody-girl.jpg" alt="img01"><h4>her</h4></a></li>
+						<li><a href="#"><img src="images/happy-boy.jpg" alt="img02"><h4>him</h4></a></li>
+					</ul>
+					<ul> <!--What-->
+						<li>
+							<p>“<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae nulla vel nisl bibendum dictum et nec nibh. 
+							Nulla tincidunt leo sed sapien tempus id congue nulla bibendum. Suspendisse potenti. Nulla pretium nunc id 
+							mauris viverra eu scelerisque nulla cursus. Praesent nibh velit, venenatis et malesuada in, consequat ut arcu. 
+							Vivamus blandit porta ultricies. Sed vitae quam felis, sit amet eleifend tortor. Phasellus ac metus non ligula 
+							sagittis tincidunt vitae non diam.</span>”</p>
+						</li>
+					</ul>
+					<ul> <!--When-->
+						<li><img src="images/church.jpg" alt="img01"><h3>ceremony</h3><h4>st kilda church <br /> 3pm</h4></li>
+						<li><h1>21.11.2013</h1></li>
+						<li><img src="images/reception.jpg" alt="img01"><h3>reception</h3><h4>mcg richmond <br /> 5pm</h4></li>
+					</ul>
+					<ul><!--Where-->
+						<li><a href="http://her.is/MaqMj"><img src="images/churchLocation.jpg" alt="img01"><h3>st kilda church</h3><h4>123<br /> beach road<br /> st kilda</h4></a></li>
+						<li><a href="http://her.is/MaqMj"><img src="images/receptionLocation.jpg" alt="img01"><h3>mcg richmond</h3><h4>456<br /> bridge road<br /> richmond</h4></a></li>
+					</ul>
+					<ul><!--RSVP-->
+						<li><h3>Will you join us?</h3>
+							<form>
+								<table>
+									<tr>
+										<td>Name</td>
+										<td><input type="text" name="name" value="i.e. John Smith"></td>
+									</tr>
+									<tr>
+										<td>Yay, I'll be there</td>
+										<td><input type="radio" name="Attendence" value="Yes"></td>
+									</tr>
+									<tr>
+										<td>Oh no, I suck!</td>
+										<td><input type="radio" name="Attendence" value="No"></td>
+									</tr>
+									<tr>
+										<td>Btw, I can't eat</td>
+										<td><input type="text" name="dietry" value="i.e. Dairy, Meat"></td>
+									</tr>
+									<tr>
+										<td>Anything else?</td>
+										<td><input type="text" name="comments" value="i.e. Will be there only for the ceremony"></td>
+									</tr>
+								</table>
+							</form>
+						</li>
+						<li>
+							<p>“<span>
+							However, as time has passed, it has become acceptable to create a ‘wedding list’ in order 
+							that the bride and groom receive gifts that are actually needed and will be used, but asking
+							for money as a gift is a contentious issue and there is no ‘proper’ way of asking. 
+							</span>”</p>
+						</li>
+					</ul>
+					
+					<nav>
+						<a href="#">who</a>
+						<a href="#">what</a>
+						<a href="#">where</a>
+						<a href="#">maps</a>
+						<a href="#">rsvp + gifts</a>
+					</nav>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/jquery.catslider.js"></script>
+		<script>
+			$(function() {
+
+				$( '#mi-slider' ).catslider();
+
+			});
+		</script>
+	</body>
+</html>

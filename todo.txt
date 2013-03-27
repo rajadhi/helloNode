@@ -1,0 +1,11 @@
+TODO
+------
+
+1. Fix fonts
+2. Finalize images
+3. Background image?
+4. Replace the black line with something like this http://www.flor.com/blog/wp-images/2011/09/Divine-Twine-yellow-2.jpg
+5. Finalize text in WHAT
+6. Fix the RSVP form
+7. Fix the text that goes in Gifts?
+8. 
